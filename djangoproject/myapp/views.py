@@ -3,7 +3,7 @@ from .models import Project, Task
 from django.shortcuts import get_object_or_404, render
 
 # Create your views here.
-
+1:54:56
 def index(request):
     return render(request, "index.html")
 
